@@ -1,7 +1,7 @@
 from lib import CONN, CURSOR
-from lib.classes.c2 import C2
+from lib.classes.castle import Castle
 
-class C1:
+class Vampire:
 
     # THIS METHOD WILL CREATE THE SQL TABLE #
     @classmethod
