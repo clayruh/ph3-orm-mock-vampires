@@ -1,4 +1,4 @@
-# Phase 3 ORM Challenge - NAME GOES HERE
+# Phase 3 ORM Challenge - Vampires
 
 For this mock challenge, we'll be working with a domain for tracking vampires
 and the castles they inhabit.
@@ -61,7 +61,7 @@ build out any helper methods if needed.
   - `Vampire(id={id} name={name}, year_born={year_born}, castle_id={castle_id})`
 - `Vampire property year_born()`
   - Returns the `Vampire`'s year_born
-  - The year_born must be an integer between 1431 and 2002
+  - The year_born must be an integer between `1431` and `2002`
     - We've chosen 1431 because that's when Vlad Dracula was born and 2002 means a vampire is of drinking age
 
 ### SQL Methods
@@ -73,7 +73,6 @@ build out any helper methods if needed.
 - `Vampire classmethod query_all()`
   - Returns a list of Vampire instances based on rows in the database
   - The return value ought to be a list of Vampire instances
-
 
 ### Association Properties
 
