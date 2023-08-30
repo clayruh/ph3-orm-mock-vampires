@@ -68,12 +68,12 @@ build out any helper methods if needed.
 
 - `Vampire create()`
   - Creates a Vampire in the database with the instance's attributes
+- `Vampire update()`
+  - Updates a Vampire in the database based on the instance's attributes
 - `Vampire classmethod query_all()`
   - Returns a list of Vampire instances based on rows in the database
   - The return value ought to be a list of Vampire instances
-- `Vampire delete()`
-  - Deletes the Vampire from the database
-  - No return value is necessary for this method
+
 
 ### Association Properties
 
@@ -88,8 +88,9 @@ build out any helper methods if needed.
 
 ### BONUS Methods
 
-- `Vampire update()`
-  - Updates a Vampire in the database based on the instance's attributes
+- `Vampire delete()`
+  - Deletes the Vampire from the database
+  - No return value is necessary for this method
 - `Vampire save()`
   - Will either create or update the Vampire in the database depending on
   whether the Vampire has an id
