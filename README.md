@@ -1,4 +1,4 @@
-# Phase 3 ORM Challenge - Vampires
+# Phase 3 ORM Mock Challenge - Vampires
 
 For this mock challenge, we'll be working with a domain for tracking vampires
 and the castles they inhabit.
