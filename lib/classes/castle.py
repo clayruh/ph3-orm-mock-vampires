@@ -18,3 +18,8 @@ class Castle:
         """
 
         CURSOR.execute(sql)
+
+    @classmethod
+    def query_all(cls):
+        rows = CURSOR.execute("SELECT * FROM castles").fetchall()
+        return [ Castle(r[1], r[0]) for r in rows ]
